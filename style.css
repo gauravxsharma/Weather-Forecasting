@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 }
 
 body{
-    background-image: url('background.jpg');
+    background-image: url('background1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -34,7 +35,7 @@ body{
 #submitBtn{
     margin-top: 20px;
     margin-left: 10px;
-    background-color:rgba(98, 144, 228, 0.856); 
+    background-color:#de4343af; 
 
 }
 .inputs input[type="text"]{
@@ -68,18 +69,19 @@ body{
 
 .wrapper{
     margin: 0 9rem;
-    background-color: rgb(172, 189, 221);
-    height: 45vh;
-    margin: 50px auto;
+    background-color: rgb(232 171 148);
+    height: 36vh;
+    margin: 20px auto;
     border-radius: 2px;
 }
 
 .wrapper h2{
     padding: 5px 0;
     text-align: center;
-    background-color: #134eadaf;
+    background-color: #de4343af;
     color: white;
-    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
 }
 
 .wrapper p{
@@ -91,11 +93,18 @@ body{
 }
 
 .wrapper h2 span{
-    font-size: 24px;
-    color: #9beefb;
+    font-size: 26px;
+    color: #060807;
+    font-family: "Montserrat", sans-serif;
 }
 
 .wrapper p span{
-    color: #2c11a7;
+    color: #ec5620;
     font-size: 25px;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url(background1.jpg);
+    }
 }
